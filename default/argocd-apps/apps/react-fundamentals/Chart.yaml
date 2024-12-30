@@ -1,0 +1,9 @@
+apiVersion: v2
+name: react-fundamentals
+description: react-fundamentals helm chart
+type: application
+version: "1.0"
+dependencies:
+  - name: react-fundamentals
+    version: 0.1.0
+    repository: https://github.com/sinapam/react-fundamentals.git
